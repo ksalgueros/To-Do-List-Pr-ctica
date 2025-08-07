@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es-MX"> <!-- Define el tipo de documento y el idioma principal como español -->
+<head>
+  <meta charset="UTF-8"> <!-- Establece la codificación de caracteres para admitir acentos y símbolos -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que el diseño sea responsivo en dispositivos móviles -->
+  <title>Lista de Tareas</title> <!-- Título que aparece en la pestaña del navegador -->
+  <link rel="stylesheet" href="style.css"> <!-- Enlaza el archivo CSS para aplicar estilos -->
+</head>
+<body>
+  <div class="container"> <!-- Contenedor principal para agrupar todos los elementos -->
+    <h1>Lista de Tareas</h1> <!-- Título principal de la página -->
+    <img src="img/todo-banner.png" alt="Banner Lista de Tareas" class="banner">
+    <!-- Campo de texto donde el usuario escribe una nueva tarea -->
+    <input type="text" id="taskInput" placeholder="Escribe una tarea...">
+
+    <!-- Botón que el usuario presiona para agregar la tarea a la lista -->
+    <button id="addTaskBtn">Agregar</button>
+
+    <!-- Lista desordenada donde se mostrarán las tareas agregadas -->
+    <ul id="taskList"></ul>
+  </div>
+
+  <!-- Enlaza el archivo JavaScript que contiene la lógica del proyecto -->
+  <script src="script.js"></script>
+</body>
+</html>
