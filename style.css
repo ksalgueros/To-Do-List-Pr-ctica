@@ -62,11 +62,7 @@ h1 {
   align-items: center;
 }
 
-/* Estilo para tareas completadas (lo usaremos luego con JS) */
-.completed {
-  text-decoration: line-through;
-  color: #888;
-}
+
 .banner {
   width: 100%;
   max-height: 200px;
